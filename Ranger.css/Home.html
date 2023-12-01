@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPE</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        #player {
+            border-radius: 25px;
+            box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo mpe2.png"  class="logo" alt="logo">
+        </div>
+
+        <div class="pesquisa">
+            <input type="text"  id="txtBusca" placeholder="Buscar..."/>
+        </div>
+
+        <div>
+            <input type="image" src="img/singIn.png" class="singIn">            
+        </div>
+
+        <div>
+            <input type="image" src="img/login.png" class="login">
+        </div>
+    </header>
+
+    <main>
+        <div class="navegacao">
+   <iframe src="Carousel/index.html" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+
+        <section>
+           
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="txts/texto1.png" class="d-block w-100" alt="frase 1">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="txts/texto2.png" class="d-block w-100" alt="frase 2">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="txts/texto3.png" class="d-block w-100" alt="frase 3">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="txts/texto4.png" class="d-block w-100" alt="frase 4">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="txts/texto5.png" class="d-block w-100" alt="frase 5">
+                      </div>
+                    </div>
+              
+                <!--BOTÕES---------------------------------------------------------------------------------------------------------------------------------->
+          
+                </div>
+              
+                
+         
+
+            <div id="musica">
+                <iframe id="player" src="player ofc/Player_principal.html" frameborder="0"  height="100%" width="100%" scrolling="no"></iframe>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+menu{
+    background-image: linear-gradient(
+         #0725668a,
+         #3155a48a,
+         #ffffff8a
+    );
+    font-family: barlow;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 35vw;
+    justify-content: end;
+  
+   
+}
+
+.btn{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+
+}
+#cover{
+   
+    width: 240px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  
+    padding-left: 1em;
+    padding-bottom: 1em;
+   
+    border-radius: 50px;
+ 
+   
+    
+
+}
+.Head{
+    display: flex;
+   
+    justify-content: space-between;
+   
+   
+    margin: 3em 0 1em 0;
+}
+
+.player-music{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.btn{
+    font-size: 1.5em;
+}
+
+.btn-mudar{
+    font-size: 2em;
+}
+
+.btn-bigbig{
+    font-size: 4em;
+}
+
+.btn-active{
+    color: #00af75;
+}
+
+#playlister-title{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+#song-info{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.Barrinha{
+    background: rgb(0, 0, 0);
+    height: 3px;
+    width: 100%;
+    border-radius:15px ;
+   
+}
+
+#barrinha_que_anda{
+    height: inherit;
+    background: rgb(8, 88, 28);
+    width: var(--progress);
+    border-radius: inherit;
+    --progress: 0%;
+}
+
+#BARRAO{
+   
+    cursor: pointer;
+
+}
+
+#time-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
+}
+
+.coraçãozinho{
+    color: rgba(252, 25, 25, 0.842);
+    font-size: 2em;
+}
+
+#tudo-foto{
+   width: 30rem;
+   position: absolute;
+   top: 2em;
+   left: 19em;
+
+
+
+
+}

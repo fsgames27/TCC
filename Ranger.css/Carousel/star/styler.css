@@ -1,0 +1,27 @@
+.avaliacao {
+    display: flex;
+    justify-content: right;
+    height: 40px;/* 
+    background-color: #fff; */
+  }
+  .star-icon {
+    list-style-type: none;
+    border: none;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 20px; /* alterar o tamanho das estrelas */
+  }
+
+  .star-icon::before {
+    content: "\2605";
+  }
+  .star-icon.ativo ~ .star-icon::before {
+    content: "\2606";
+  }
+  .avaliacao:hover .star-icon::before {
+    content: "\2605";
+  }
+  .star-icon:hover ~ .star-icon::before {
+    content: "\2606";
+  }
+ 
